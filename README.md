@@ -67,10 +67,10 @@ This project is a modular Django REST Framework backend for managing Vendors, Pr
 |--------|-------------------------|---------------------|
 | GET    | /api/vendors/           | List vendors        |
 | POST   | /api/vendors/           | Create vendor       |
-| GET    | /api/vendors/<id>/      | Retrieve vendor     |
-| PUT    | /api/vendors/<id>/      | Update vendor       |
-| PATCH  | /api/vendors/<id>/      | Partial update      |
-| DELETE | /api/vendors/<id>/      | Delete vendor       |
+| GET    | /api/vendors/&lt;id&gt;/      | Retrieve vendor     |
+| PUT    | /api/vendors/&lt;id&gt;/      | Update vendor       |
+| PATCH  | /api/vendors/&lt;id&gt;/      | Partial update      |
+| DELETE | /api/vendors/&lt;id&gt;/      | Delete vendor       |
 
 Similar endpoints exist for products, courses, and certifications.
 
@@ -80,10 +80,10 @@ Similar endpoints exist for products, courses, and certifications.
 |--------|---------------------------------------|------------------------------|
 | GET    | /api/vendor-product-mappings/         | List vendor-product mappings |
 | POST   | /api/vendor-product-mappings/         | Create mapping               |
-| GET    | /api/vendor-product-mappings/<id>/    | Retrieve mapping             |
-| PUT    | /api/vendor-product-mappings/<id>/    | Update mapping               |
-| PATCH  | /api/vendor-product-mappings/<id>/    | Partial update mapping       |
-| DELETE | /api/vendor-product-mappings/<id>/    | Delete mapping               |
+| GET    | /api/vendor-product-mappings/&lt;id&gt;/    | Retrieve mapping             |
+| PUT    | /api/vendor-product-mappings/&lt;id&gt;/    | Update mapping               |
+| PATCH  | /api/vendor-product-mappings/&lt;id&gt;/    | Partial update mapping       |
+| DELETE | /api/vendor-product-mappings/&lt;id&gt;/    | Delete mapping               |
 
 Similar endpoints exist for product-course and course-certification mappings.
 
