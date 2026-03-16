@@ -12,68 +12,6 @@ All APIs are implemented using **APIView**, with **drf-yasg** for Swagger and Re
 
 This project is a modular Django REST Framework backend for managing Vendors, Products, Courses, Certifications, and their mappings. All APIs use **APIView only** (no ViewSets, routers, GenericAPIView, or mixins). API documentation is provided via drf-yasg (Swagger & ReDoc).
 
----
-
-## Project Structure
-
-```
-modular_api/
-│
-├── vendor/
-│   ├── models.py
-│   ├── serializers.py
-│   ├── views.py
-│   ├── urls.py
-│   └── admin.py
-│
-├── product/
-│   ├── models.py
-│   ├── serializers.py
-│   ├── views.py
-│   ├── urls.py
-│   └── admin.py
-│
-├── course/
-│   ├── models.py
-│   ├── serializers.py
-│   ├── views.py
-│   ├── urls.py
-│   └── admin.py
-│
-├── certification/
-│   ├── models.py
-│   ├── serializers.py
-│   ├── views.py
-│   ├── urls.py
-│   └── admin.py
-│
-├── vendor_product_mapping/
-│   ├── models.py
-│   ├── serializers.py
-│   ├── views.py
-│   ├── urls.py
-│   └── admin.py
-│
-├── product_course_mapping/
-│   ├── models.py
-│   ├── serializers.py
-│   ├── views.py
-│   ├── urls.py
-│   └── admin.py
-│
-├── course_certification_mapping/
-│   ├── models.py
-│   ├── serializers.py
-│   ├── views.py
-│   ├── urls.py
-│   └── admin.py
-│
-├── modular_api/
-│   ├── settings.py
-│   ├── urls.py
-│
-└── manage.py
-```
 
 ---
 
@@ -91,7 +29,7 @@ modular_api/
    ```
 3. **Install dependencies:**
    ```bash
-   pip install django djangorestframework drf-yasg
+   pip install -r requirements.txt
    ```
 4. **Add to `INSTALLED_APPS` in `settings.py`:**
    ```python
