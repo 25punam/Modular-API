@@ -82,7 +82,7 @@ modular_api/
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/25punam/Modular-API.git
-   cd Modular-API
+   cd modular_api
    ```
 2. **Create and activate a virtual environment:**
    ```bash
